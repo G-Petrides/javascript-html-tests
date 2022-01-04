@@ -1,6 +1,24 @@
 :host {
-    display:block;
-    background:blue;
+    display:table;
+    background:lightblue;
     width:100%;
     height:40%;
+    border-collapse: separate;
+    border-spacing: 0;
+}
+margin-calc-title-row{
+    background:white;
+    position:sticky;
+    top:0;
+}
+margin-calc-title-row, margin-calc-row{
+    display:table-row;
+    height:10px;
+}
+
+margin-calc-cell{
+    display:table-cell;
+    padding: 0 2px;
+    border:1px solid lightgray;
+    white-space: nowrap;
 }
